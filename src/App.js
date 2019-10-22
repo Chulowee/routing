@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Counter from './components/Counter.js';
+import CounterWithReduxState from "./components/CounterWithReduxState";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter/>
+        <CounterWithReduxState/>
       </header>
     </div>
   );
